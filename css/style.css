@@ -1,0 +1,62 @@
+
+body{
+font-family: "Roboto","Releway";
+width: 1440px;
+height: 3300px;
+background-color: #e1e7e3;
+margin: 0;
+justify-content: center;
+align-items: center;
+}
+a {
+    text-decoration: none;
+}
+ul,
+ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.header-border{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.list-flex{
+    display: flex;
+        justify-content: space-around;
+}
+.header-logo {
+    display: inline-flex;
+    height: 24px;
+    align-items: center;
+    flex-shrink: 0;
+    margin-top: 25.5px;
+    margin-bottom: 25.5px;
+    margin-left: 156px;
+}
+
+.web-logo {
+    color: #4D5AE5;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    padding-left: 156;
+    padding-right: 1240;
+    padding-top: 25.5;
+}
+
+.stidio-logo {
+    color: #2E2F42;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
