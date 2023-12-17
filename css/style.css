@@ -1,9 +1,11 @@
-
 body{
-font-family: "Roboto","sans-serif";
+font-family: "Roboto",sans-serif;
 background-color: #FFFFFF;
+color: #434455;
 margin: 0;
 justify-content: center;
+flex-shrink: 0;
+line-height: 60px;
 }
 a {
     text-decoration: none;
@@ -11,56 +13,66 @@ a {
 ul,
 ol {
     list-style: none;
-    padding: 0;
     margin: 0;
 }
-.header-border{
-    display: flex;
-    justify-content: space-around;
-}
-.flex-nav{
-   display: flex;
-        justify-content: space-around; 
-}
-.list-flex{
-        justify-content: space-around;
-        display: inline-flex;
-            align-items: flex-start;
-            gap: 40px;
-            
-}
-.header-logo {
-    display: inline-flex;
-    justify-content: space-around;
-    height: 24px;
-    align-items: center;
+header{
     flex-shrink: 0;
-    margin-top: 25.5px;
-    margin-bottom: 25.5px;
-    margin-left: 156px;
 }
-
-.web-logo {
+.logo{
     color: #4D5AE5;
-    font-family: Raleway;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 21px;
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
-    padding-left: 156;
-    padding-right: 1240;
-    padding-top: 25.5;
+        font-family: "Raleway",sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
 }
-
-.stidio-logo {
+.stidio-logo{
     color: #2E2F42;
-    font-family: Raleway;
-    font-size: 18px;
+}
+.menu-nav{
+    color: #2E2F42;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.2em;
+}
+.menu-nav:hover{
+    color: #404bbf;
+}
+.menu-nav:focus{
+    color: #404bbf;
+}
+.adress-list{
     font-style: normal;
-    font-weight: 700;
-    line-height: 21px;
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
+}
+.contact{
+    color:#434455;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.2em;
+}
+.contact:hover{
+    color: #404bbf;
+}
+.contact:focus{
+    color: #404bbf;
+}
+h1{
+font-weight: bold;
+font-size: 56px;
+letter-spacing: 2%;
+line-height: 60px;
+}
+h2{
+    font-weight: bold;
+    font-size: 36px;
+    letter-spacing: 2%;
+}
+h3{
+    font-weight: medium;
+    font-size: 20px;
+    letter-spacing: 2%;
 }
