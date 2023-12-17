@@ -60,22 +60,57 @@ header{
 .contact:focus{
     color: #404bbf;
 }
-h1{
-font-weight: bold;
-font-size: 56px;
-letter-spacing: 2%;
-line-height: 60px;
-}
-h2{
-    font-weight: bold;
-    font-size: 36px;
-    letter-spacing: 2%;
-}
-h3{
-    font-weight: medium;
-    font-size: 20px;
-    letter-spacing: 2%;
-}
 .first-section{
 background-color: #2e2f42;
+}
+.first-title{
+font-size: 56px;
+letter-spacing: 0.02em;
+line-height: 1.07;
+text-align: center;
+color: #FFFFFF;
+}
+.main-button{
+    background-color: #4D5AE5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.main-button:hover {
+    color: #404bbf;
+}
+
+.main-button:focus {
+    color: #404bbf;
+}
+.others-header{
+font-weight: 500;
+font-size: 20px;
+letter-spacing: 0.02em;
+line-height: 1.2;
+color: #2e2f42;
+}
+.page-text{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.our-team{
+    background-color: #F4F4FD;
+}
+.header-two{
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.02em;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+.background-list{
+    background-color: #FFFFFF
 }
