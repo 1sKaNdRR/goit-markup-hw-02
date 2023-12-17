@@ -80,11 +80,11 @@ color: #FFFFFF;
     cursor: pointer;
 }
 .main-button:hover {
-    color: #404bbf;
+    background-color: #404bbf;
 }
 
 .main-button:focus {
-    color: #404bbf;
+    background-color: #404bbf;
 }
 .others-header{
 font-weight: 500;
